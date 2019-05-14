@@ -1,0 +1,19 @@
+{
+  "name": "assignment-3-navigation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.1"
+  }
+}
