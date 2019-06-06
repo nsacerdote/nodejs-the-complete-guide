@@ -1,0 +1,16 @@
+<%- include('includes/head.ejs')%>
+<h1>Users</h1>
+<% if (users.length > 0) { %>
+    <div class="grid">
+        <% for (let user of users) { %>
+            <article class="card product-item">
+                <header class="card__header">
+                    <h1 class="product__title"><%= user.name %></h1>
+                </header>
+            </article>
+        <% } %>
+    </div>
+<% } else { %>
+    <p>No Users Found</p>
+<% } %>
+<%- include('includes/end.ejs')%>
