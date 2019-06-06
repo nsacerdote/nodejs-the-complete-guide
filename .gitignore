@@ -1,3 +1,4 @@
 node_modules/
 .idea/
 course-project/npm-debug.log
+**/data/*.json
